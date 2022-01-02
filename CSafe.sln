@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSafe", "CSafe.csproj", "{66B11165-6C06-4799-A54F-AFEC6E6C778E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrecorTest02", "PrecorTest02\PrecorTest02.csproj", "{1DBA13C9-1C2F-4DBB-9206-71C563BA6549}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66B11165-6C06-4799-A54F-AFEC6E6C778E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B11165-6C06-4799-A54F-AFEC6E6C778E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B11165-6C06-4799-A54F-AFEC6E6C778E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B11165-6C06-4799-A54F-AFEC6E6C778E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DBA13C9-1C2F-4DBB-9206-71C563BA6549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBA13C9-1C2F-4DBB-9206-71C563BA6549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DBA13C9-1C2F-4DBB-9206-71C563BA6549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DBA13C9-1C2F-4DBB-9206-71C563BA6549}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4AA4D6B-ACD1-4535-BFA4-3FCD2010B6F4}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.VersionControlPolicy = $1
+	EndGlobalSection
+EndGlobal

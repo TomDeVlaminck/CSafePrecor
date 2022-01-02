@@ -1,0 +1,9 @@
+/Users/tomdevlaminck/Documents/projects/Precor-Eliptical-Trainer/CSafePrecor/PrecorTest02/bin/Debug/PrecorTest02.exe
+/Users/tomdevlaminck/Documents/projects/Precor-Eliptical-Trainer/CSafePrecor/PrecorTest02/bin/Debug/PrecorTest02.pdb
+/Users/tomdevlaminck/Documents/projects/Precor-Eliptical-Trainer/CSafePrecor/PrecorTest02/bin/Debug/CSafe.dll
+/Users/tomdevlaminck/Documents/projects/Precor-Eliptical-Trainer/CSafePrecor/PrecorTest02/bin/Debug/CSafe.pdb
+/Users/tomdevlaminck/Documents/projects/Precor-Eliptical-Trainer/CSafePrecor/PrecorTest02/obj/Debug/PrecorTest02.csproj.AssemblyReference.cache
+/Users/tomdevlaminck/Documents/projects/Precor-Eliptical-Trainer/CSafePrecor/PrecorTest02/obj/Debug/PrecorTest02.csproj.CoreCompileInputs.cache
+/Users/tomdevlaminck/Documents/projects/Precor-Eliptical-Trainer/CSafePrecor/PrecorTest02/obj/Debug/PrecorTest02.csproj.CopyComplete
+/Users/tomdevlaminck/Documents/projects/Precor-Eliptical-Trainer/CSafePrecor/PrecorTest02/obj/Debug/PrecorTest02.exe
+/Users/tomdevlaminck/Documents/projects/Precor-Eliptical-Trainer/CSafePrecor/PrecorTest02/obj/Debug/PrecorTest02.pdb

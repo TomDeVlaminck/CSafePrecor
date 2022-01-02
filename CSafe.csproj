@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{66B11165-6C06-4799-A54F-AFEC6E6C778E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CSafe</RootNamespace>
+    <AssemblyName>CSafe</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Commands\Command.cs" />
+    <Compile Include="Commands\Csafe\CadenceCommand.cs" />
+    <Compile Include="Commands\Csafe\CaloriesCommand.cs" />
+    <Compile Include="Commands\Csafe\DistanceCommand.cs" />
+    <Compile Include="Commands\Csafe\HeartRateCommand.cs" />
+    <Compile Include="Commands\Csafe\PaceCommand.cs" />
+    <Compile Include="Commands\Csafe\PowerCommand.cs" />
+    <Compile Include="Commands\Csafe\TimeCommand.cs" />
+    <Compile Include="Connection.cs" />
+    <Compile Include="IConnection.cs" />
+    <Compile Include="Commands\CommandSet.cs" />
+    <Compile Include="Commands\CommandWriter.cs" />
+    <Compile Include="Commands\ResponseReader.cs" />
+    <Compile Include="Enums\ConnectionState.cs" />
+    <Compile Include="Exceptions\InternalException.cs" />
+    <Compile Include="Enums\CSAFE.cs" />
+    <Compile Include="Devices\CSafeSer2Net.cs" />
+    <Compile Include="Devices\ICSafeDevice.cs" />
+    <Compile Include="Commands\CsafeLogic\CSafeUtil.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Commands\CsafeLogic\" />
+  </ItemGroup>
+</Project>
